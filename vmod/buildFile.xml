@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VASSAL.build.GameModule ModuleOther1="VASSAL module development contributed by Brian Griska and William Rummler" ModuleOther2="" VassalVersion="3.6.3" description="A somewhat-but-not-very polished &quot;scan-and-play&quot; of an original game included in the pages of &quot;The Complete Book of Wargames&quot; (1980) by Consumer Guide." name="Kassala" nextPieceSlotId="66" version="0.1.0">
+    <VASSAL.build.module.BasicCommandEncoder/>
+    <VASSAL.build.module.Documentation>
+        <VASSAL.build.module.documentation.AboutScreen fileName="Splash.png" title="About Module"/>
+        <VASSAL.build.module.documentation.BrowserPDFFile pdfFile="The Complete Book of Wargames - Chapter 4.pdf" title="Show TCBW Ch. 4 (PDF scan)"/>
+    </VASSAL.build.module.Documentation>
+    <VASSAL.build.module.PlayerRoster buttonIcon="" buttonKeyStroke="" buttonText="Retire" buttonToolTip="Switch sides, become an observer, or allow another player to take your side in this game">
+        <entry>Moslem</entry>
+        <entry>Christian</entry>
+    </VASSAL.build.module.PlayerRoster>
+    <VASSAL.build.module.GlobalOptions autoReport="Always" chatterHTMLSupport="Never" hotKeysOnClosedWindows="Never" nonOwnerUnmaskable="Never" playerIdFormat="$PlayerName$" promptString="Opponents can unmask my pieces">
+        <option name="stepIcon">/images/StepForward16.gif</option>
+        <option name="stepHotKey">34,0</option>
+        <option name="undoIcon">/images/Undo16.gif</option>
+        <option name="undoHotKey"/>
+        <option name="serverControlsIcon">/images/connect.gif</option>
+        <option name="serverControlsHotKey">83,520</option>
+        <option name="debugControlsIcon"/>
+        <option name="debugControlsHotKey"/>
+    </VASSAL.build.module.GlobalOptions>
+    <VASSAL.build.module.Map allowMultiple="false" backgroundcolor="255,255,255" buttonName="Map" changeFormat="$message$" color="0,0,0" createFormat="$pieceName$ created in $location$ *" description="" edgeHeight="0" edgeWidth="0" hideKey="" hotkey="" icon="/images/map.gif" launch="false" mapName="Main Map" markMoved="Never" markUnmovedHotkey="" markUnmovedIcon="/images/unmoved.gif" markUnmovedReport="" markUnmovedText="" markUnmovedTooltip="Mark all pieces on this map as not moved" moveKey="" moveToFormat="$pieceName$ moves $previousLocation$ &amp;rarr; $location$ *" moveWithinFormat="$pieceName$ moves $previousLocation$ &amp;rarr; $location$ *" showKey="" thickness="3">
+        <VASSAL.build.module.map.BoardPicker addColumnText="Add column" addRowText="Add row" boardPrompt="Select board" slotHeight="125" slotScale="0.2" slotWidth="350" title="Choose Boards">
+            <VASSAL.build.module.map.boardPicker.Board image="Kassala-map.png" name="Kassala" reversible="false">
+                <VASSAL.build.module.map.boardPicker.board.HexGrid color="255,255,0" cornersLegal="false" dotsVisible="false" dx="227.90000000000052" dy="265.8999999999995" edgesLegal="false" sideways="false" snapTo="true" visible="false" x0="51" y0="55"/>
+            </VASSAL.build.module.map.boardPicker.Board>
+        </VASSAL.build.module.map.BoardPicker>
+        <VASSAL.build.module.map.StackMetrics bottom="40,0" disabled="false" down="37,0" exSepX="30" exSepY="90" top="38,0" unexSepX="10" unexSepY="20" up="39,0"/>
+        <VASSAL.build.module.map.ForwardToKeyBuffer/>
+        <VASSAL.build.module.map.Scroller/>
+        <VASSAL.build.module.map.ForwardToChatter/>
+        <VASSAL.build.module.map.MenuDisplayer/>
+        <VASSAL.build.module.map.MapCenterer/>
+        <VASSAL.build.module.map.StackExpander/>
+        <VASSAL.build.module.map.PieceMover/>
+        <VASSAL.build.module.map.KeyBufferer/>
+        <VASSAL.build.module.map.ImageSaver buttonText="" canDisable="false" hotkey="" icon="/images/camera.gif" propertyGate="" tooltip="Save map as PNG image"/>
+        <VASSAL.build.module.map.CounterDetailViewer borderWidth="0" centerAll="false" centerText="false" combineCounterSummary="false" counterReportFormat="" delay="700" description="" display="from top-most layer only" emptyHexReportForma="$LocationName$" enableHTML="false" extraTextPadding="0" fgColor="0,0,0" fontSize="9" graphicsZoom="1.0" hotkey="32,130" layerList="" minDisplayPieces="2" propertyFilter="" showDeck="false" showDeckDepth="1" showDeckMasked="false" showMoveSelectde="false" showNoStack="false" showNonMovable="false" showOverlap="false" showgraph="true" showgraphsingle="false" showtext="false" showtextsingle="false" stretchWidthSummary="false" summaryReportFormat="$LocationName$" unrotatePieces="false" version="3" verticalOffset="0" verticalTopText="5" zoomlevel="1.0"/>
+        <VASSAL.build.module.map.Flare circleColor="255,0,0" circleScale="true" circleSize="100" flareKey="keyAlt" flareName="Map Flare" flarePulses="6" flarePulsesPerSec="3" reportFormat=""/>
+        <VASSAL.build.module.properties.GlobalProperties/>
+        <VASSAL.build.module.map.SelectionHighlighters/>
+        <VASSAL.build.module.map.HighlightLastMoved color="255,0,0" enabled="true" thickness="2"/>
+        <VASSAL.build.module.map.Zoomer inButtonText="" inIconName="/images/zoomIn.gif" inTooltip="Zoom in" outButtonText="" outIconName="/images/zoomOut.gif" outTooltip="Zoom out" pickButtonText="" pickIconName="/images/zoom.png" pickTooltip="Select Zoom" zoomInKey="" zoomLevels="0.2,0.25,0.333,0.4,0.5,0.555,0.625,0.75,1.0" zoomOutKey="" zoomPickKey="" zoomStart="9"/>
+        <VASSAL.build.module.folder.MapSubFolder desc="" name="Moslem At-Start Stacks">
+            <VASSAL.build.module.map.SetupStack name="Mos-Can_x3" owningBoard="Kassala" useGridLocation="false" x="734" y="718">
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Cannon_1-0" gpid="53" height="64" width="75">+/null/prototype;Unit	piece;;;Moslem_Cannon_1-0.png;Moslem_Cannon_1-0/	null;0;0;53;0</VASSAL.build.widget.PieceSlot>
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Cannon_1-0" gpid="54" height="64" width="75">+/null/prototype;Unit	piece;;;Moslem_Cannon_1-0.png;Moslem_Cannon_1-0/	null;0;0;54;0</VASSAL.build.widget.PieceSlot>
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Cannon_1-0" gpid="55" height="64" width="75">+/null/prototype;Unit	piece;;;Moslem_Cannon_1-0.png;Moslem_Cannon_1-0/	null;0;0;55;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Mos-Inf-N_N" owningBoard="Kassala" useGridLocation="false" x="506" y="586">
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Infantry_3-2_Nubian" gpid="43" height="64" width="75">+/null/prototype;Unit	piece;;;Moslem_Infantry_3-2_Nubian.png;Moslem_Infantry_3-2_Nubian/	null;0;0;43;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Mos-Inf-N_SW" owningBoard="Kassala" useGridLocation="false" x="278" y="718">
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Infantry_3-2_Nubian" gpid="44" height="64" width="75">+/null/prototype;Unit	piece;;;Moslem_Infantry_3-2_Nubian.png;Moslem_Infantry_3-2_Nubian/	null;0;0;44;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Mos-Inf-N_SE" owningBoard="Kassala" useGridLocation="false" x="506" y="852">
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Infantry_3-2_Nubian" gpid="45" height="64" width="75">+/null/prototype;Unit	piece;;;Moslem_Infantry_3-2_Nubian.png;Moslem_Infantry_3-2_Nubian/	null;0;0;45;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Mos-Inf-E/S" owningBoard="Kassala" useGridLocation="false" x="962" y="586">
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Infantry_4-2_Egyptian-Sudanese" gpid="46" height="64" width="75">+/null/prototype;Unit	piece;;;Moslem_Infantry_4-2_Egyptian-Sudanese.png;Moslem_Infantry_4-2_Egyptian-Sudanese/	null;0;0;46;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Mos-Inf-T" owningBoard="Kassala" useGridLocation="false" x="734" y="452">
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Infantry_4-2_Turkish" gpid="47" height="64" width="75">+/null/prototype;Unit	piece;;;Moslem_Infantry_4-2_Turkish.png;Moslem_Infantry_4-2_Turkish/	null;0;0;47;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Mos-Cav-T" owningBoard="Kassala" useGridLocation="false" x="962" y="320">
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Cavalry_4-3_Turkish" gpid="48" height="64" width="75">+/null/prototype;Unit	piece;;;Moslem_Cavalry_4-3_Turkish.png;Moslem_Cavalry_4-3_Turkish/	null;0;0;48;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Mos-Cav-A_W" owningBoard="Kassala" useGridLocation="false" x="1418" y="586">
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Cavalry_3-3_Arab" gpid="49" height="64" width="75">+/null/prototype;Unit	piece;;;Moslem_Cavalry_3-3_Arab.png;Moslem_Cavalry_3-3_Arab/	null;0;0;49;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Mos-Cav-A_E" owningBoard="Kassala" useGridLocation="false" x="1646" y="718">
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Cavalry_3-3_Arab" gpid="50" height="64" width="75">+/null/prototype;Unit	piece;;;Moslem_Cavalry_3-3_Arab.png;Moslem_Cavalry_3-3_Arab/	null;0;0;50;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Mos-Cav-M_W" owningBoard="Kassala" useGridLocation="false" x="1418" y="320">
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Cavalry_3-3_Mamluk" gpid="51" height="64" width="75">+/null/prototype;Unit	piece;;;Moslem_Cavalry_3-3_Mamluk.png;Moslem_Cavalry_3-3_Mamluk/	null;0;0;51;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Mos-Cav-M_E" owningBoard="Kassala" useGridLocation="false" x="1646" y="452">
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Cavalry_3-3_Mamluk" gpid="52" height="64" width="75">+/null/prototype;Unit	piece;;;Moslem_Cavalry_3-3_Mamluk.png;Moslem_Cavalry_3-3_Mamluk/	null;0;0;52;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+        </VASSAL.build.module.folder.MapSubFolder>
+        <VASSAL.build.module.folder.MapSubFolder desc="" name="Christian At-Start Stacks">
+            <VASSAL.build.module.map.SetupStack name="Chr-Inf-P_4-2_N" owningBoard="Kassala" useGridLocation="false" x="734" y="1250">
+                <VASSAL.build.widget.PieceSlot entryName="Christian_Infantry_4-2_Portuguese" gpid="56" height="64" width="75">+/null/prototype;Unit	piece;;;Christian_Infantry_4-2_Portuguese.png;Christian_Infantry_4-2_Portuguese/	null;0;0;56;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Chr-Inf-P_4-2_S" owningBoard="Kassala" useGridLocation="false" x="734" y="1516">
+                <VASSAL.build.widget.PieceSlot entryName="Christian_Infantry_4-2_Portuguese" gpid="57" height="64" width="75">+/null/prototype;Unit	piece;;;Christian_Infantry_4-2_Portuguese.png;Christian_Infantry_4-2_Portuguese/	null;0;0;57;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Chr-Inf-P_2-2" owningBoard="Kassala" useGridLocation="false" x="962" y="1650">
+                <VASSAL.build.widget.PieceSlot entryName="Christian_Infantry_2-2_Portuguese" gpid="58" height="64" width="75">+/null/prototype;Unit	piece;;;Christian_Infantry_2-2_Portuguese.png;Christian_Infantry_2-2_Portuguese/	null;0;0;58;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Chr-Can_W" owningBoard="Kassala" useGridLocation="false" x="1190" y="1782">
+                <VASSAL.build.widget.PieceSlot entryName="Christian_Cannon_1-0" gpid="59" height="64" width="75">+/null/prototype;Unit	piece;;;Christian_Cannon_1-0.png;Christian_Cannon_1-0/	null;0;0;59;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Chr-Can_E" owningBoard="Kassala" useGridLocation="false" x="1646" y="1782">
+                <VASSAL.build.widget.PieceSlot entryName="Christian_Cannon_1-0" gpid="60" height="64" width="75">+/null/prototype;Unit	piece;;;Christian_Cannon_1-0.png;Christian_Cannon_1-0/	null;0;0;60;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Chr-Cav" owningBoard="Kassala" useGridLocation="false" x="1190" y="2048">
+                <VASSAL.build.widget.PieceSlot entryName="Christian_Cavalry_2-3_Native" gpid="61" height="64" width="75">+/null/prototype;Unit	piece;;;Christian_Cavalry_2-3_Native.png;Christian_Cavalry_2-3_Native/	null;0;0;61;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Chr-Inf-E_S" owningBoard="Kassala" useGridLocation="false" x="1418" y="1916">
+                <VASSAL.build.widget.PieceSlot entryName="Christian_Infantry_4-2_Ethiopian" gpid="62" height="64" width="75">+/null/prototype;Unit	piece;;;Christian_Infantry_4-2_Ethiopian.png;Christian_Infantry_4-2_Ethiopian/	null;0;0;62;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Chr-Inf-E_N" owningBoard="Kassala" useGridLocation="false" x="1874" y="1650">
+                <VASSAL.build.widget.PieceSlot entryName="Christian_Infantry_4-2_Ethiopian" gpid="63" height="64" width="75">+/null/prototype;Unit	piece;;;Christian_Infantry_4-2_Ethiopian.png;Christian_Infantry_4-2_Ethiopian/	null;0;0;63;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Chr-Inf-G/E_S" owningBoard="Kassala" useGridLocation="false" x="1874" y="1384">
+                <VASSAL.build.widget.PieceSlot entryName="Christian_Infantry_4-2_Galla-Ethiopian" gpid="64" height="64" width="75">+/null/prototype;Unit	piece;;;Christian_Infantry_4-2_Galla-Ethiopian.png;Christian_Infantry_4-2_Galla-Ethiopian/	null;0;0;64;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+            <VASSAL.build.module.map.SetupStack name="Chr-Inf-G/E_N" owningBoard="Kassala" useGridLocation="false" x="1874" y="1118">
+                <VASSAL.build.widget.PieceSlot entryName="Christian_Infantry_4-2_Galla-Ethiopian" gpid="65" height="64" width="75">+/null/prototype;Unit	piece;;;Christian_Infantry_4-2_Galla-Ethiopian.png;Christian_Infantry_4-2_Galla-Ethiopian/	null;0;0;65;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.module.map.SetupStack>
+        </VASSAL.build.module.folder.MapSubFolder>
+    </VASSAL.build.module.Map>
+    <VASSAL.build.module.gamepieceimage.GamePieceImageDefinitions>
+        <VASSAL.build.module.gamepieceimage.ColorManager/>
+        <VASSAL.build.module.gamepieceimage.FontManager>
+            <VASSAL.build.module.gamepieceimage.FontStyle name="Default" style="Dialog,0,12,false"/>
+        </VASSAL.build.module.gamepieceimage.FontManager>
+        <VASSAL.build.module.gamepieceimage.GamePieceLayoutsContainer/>
+    </VASSAL.build.module.gamepieceimage.GamePieceImageDefinitions>
+    <VASSAL.build.module.properties.GlobalProperties/>
+    <VASSAL.build.module.properties.GlobalTranslatableMessages/>
+    <VASSAL.build.module.PrototypesContainer>
+        <VASSAL.build.module.PrototypeDefinition description="" name="Unit">+/null/clone;Clone;67,130;	delete;Delete;68,130;\	piece;;;;/	\	null;37;32;;0</VASSAL.build.module.PrototypeDefinition>
+    </VASSAL.build.module.PrototypesContainer>
+    <VASSAL.build.module.PieceWindow defaultWidth="0" hidden="false" hotkey="" icon="" scale="1.0" text="Pieces" tooltip="Show/Hide the null window">
+        <VASSAL.build.widget.TabWidget entryName="Units">
+            <VASSAL.build.widget.ListWidget divider="182" entryName="Moslem Units" height="-47" scale="0.5" width="-5">
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Cannon_1-0" gpid="20" height="112" width="110">+/null/prototype;Unit	piece;;;Moslem_Cannon_1-0.png;Moslem_Cannon_1-0/	null;0;0;20;0</VASSAL.build.widget.PieceSlot>
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Cavalry_3-3_Arab" gpid="21" height="110" width="107">+/null/prototype;Unit	piece;;;Moslem_Cavalry_3-3_Arab.png;Moslem_Cavalry_3-3_Arab/	null;0;0;21;0</VASSAL.build.widget.PieceSlot>
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Cavalry_3-3_Mamluk" gpid="22" height="112" width="111">+/null/prototype;Unit	piece;;;Moslem_Cavalry_3-3_Mamluk.png;Moslem_Cavalry_3-3_Mamluk/	null;0;0;22;0</VASSAL.build.widget.PieceSlot>
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Cavalry_4-3_Turkish" gpid="23" height="115" width="106">+/null/prototype;Unit	piece;;;Moslem_Cavalry_4-3_Turkish.png;Moslem_Cavalry_4-3_Turkish/	null;0;0;23;0</VASSAL.build.widget.PieceSlot>
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Infantry_3-2_Nubian" gpid="24" height="110" width="108">+/null/prototype;Unit	piece;;;Moslem_Infantry_3-2_Nubian.png;Moslem_Infantry_3-2_Nubian/	null;0;0;24;0</VASSAL.build.widget.PieceSlot>
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Infantry_4-2_Egyptian-Sudanese" gpid="25" height="110" width="109">+/null/prototype;Unit	piece;;;Moslem_Infantry_4-2_Egyptian-Sudanese.png;Moslem_Infantry_4-2_Egyptian-Sudanese/	null;0;0;25;0</VASSAL.build.widget.PieceSlot>
+                <VASSAL.build.widget.PieceSlot entryName="Moslem_Infantry_4-2_Turkish" gpid="26" height="112" width="110">+/null/prototype;Unit	piece;;;Moslem_Infantry_4-2_Turkish.png;Moslem_Infantry_4-2_Turkish/	null;0;0;26;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.widget.ListWidget>
+            <VASSAL.build.widget.ListWidget divider="195" entryName="Christian Units" height="149" scale="0.5" width="476">
+                <VASSAL.build.widget.PieceSlot entryName="Christian_Cannon_1-0" gpid="27" height="32" width="37">+/null/prototype;Unit	piece;;;Christian_Cannon_1-0.png;Christian_Cannon_1-0/	null;0;0;27;0</VASSAL.build.widget.PieceSlot>
+                <VASSAL.build.widget.PieceSlot entryName="Christian_Cavalry_2-3_Native" gpid="28" height="32" width="37">+/null/prototype;Unit	piece;;;Christian_Cavalry_2-3_Native.png;Christian_Cavalry_2-3_Native/	null;0;0;28;0</VASSAL.build.widget.PieceSlot>
+                <VASSAL.build.widget.PieceSlot entryName="Christian_Infantry_2-2_Portuguese" gpid="29" height="32" width="37">+/null/prototype;Unit	piece;;;Christian_Infantry_2-2_Portuguese.png;Christian_Infantry_2-2_Portuguese/	null;0;0;29;0</VASSAL.build.widget.PieceSlot>
+                <VASSAL.build.widget.PieceSlot entryName="Christian_Infantry_4-2_Ethiopian" gpid="30" height="32" width="37">+/null/prototype;Unit	piece;;;Christian_Infantry_4-2_Ethiopian.png;Christian_Infantry_4-2_Ethiopian/	null;0;0;30;0</VASSAL.build.widget.PieceSlot>
+                <VASSAL.build.widget.PieceSlot entryName="Christian_Infantry_4-2_Galla-Ethiopian" gpid="31" height="32" width="37">+/null/prototype;Unit	piece;;;Christian_Infantry_4-2_Galla-Ethiopian.png;Christian_Infantry_4-2_Galla-Ethiopian/	null;0;0;31;0</VASSAL.build.widget.PieceSlot>
+                <VASSAL.build.widget.PieceSlot entryName="Christian_Infantry_4-2_Portuguese" gpid="32" height="32" width="37">+/null/prototype;Unit	piece;;;Christian_Infantry_4-2_Portuguese.png;Christian_Infantry_4-2_Portuguese/	null;0;0;32;0</VASSAL.build.widget.PieceSlot>
+            </VASSAL.build.widget.ListWidget>
+        </VASSAL.build.widget.TabWidget>
+    </VASSAL.build.module.PieceWindow>
+    <VASSAL.build.module.Chatter/>
+    <VASSAL.build.module.KeyNamer/>
+    <VASSAL.i18n.Language/>
+    <VASSAL.build.module.turn.TurnTracker buttonText="Turn" hotkey="" icon="" length="-1" lengthStyle="Maximum" name="Turn" nexthotkey="" plusButtonSize="22" prevhotkey="" reportFormat="* &amp;lt;$PlayerId$&amp;gt; Turn Updated from $oldTurn$ to $newTurn$" tooltip="Right-click to configure" turnButtonHeight="22" turnFormat="$level1$ $level2$ $level3$ $level4$">
+        <VASSAL.build.module.turn.CounterTurnLevel incr="1" loop="false" loopLimit="10" start="1" turnFormat="$value$"/>
+    </VASSAL.build.module.turn.TurnTracker>
+    <VASSAL.build.module.DiceButton addToTotal="0" canDisable="false" disabledIcon="" hotkey="" icon="/images/die.gif" keepCount="1" keepDice="false" keepOption="&gt;" lockAdd="false" lockDice="false" lockPlus="false" lockSides="false" nDice="1" nSides="6" name="1d6" plus="0" prompt="false" propertyGate="" reportFormat="** $name$ = $result$ *** &amp;lt;$PlayerName$&amp;gt;" reportTotal="false" sortDice="false" text="1d6" tooltip="1d6"/>
+</VASSAL.build.GameModule>
