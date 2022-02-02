@@ -6,21 +6,23 @@ The game is from [_The Complete Book of Wargames_ (1980)](https://www.google.com
 
 It's a decent bit of fun and holds a special place in at least some folks' hearts, including my own. I was nine years old, and it was the very first wargame I ever learned and played to completion. I photocopied the thing, cut out the components, glued them onto some heavy cardstock from my older brother's comic book sleeve materials, similarly crafted a separate turn track, and had myself a pretty good time!
 
-In order of decreasing ease, there are three ways to get the module:
+In decreasing order of ease and/or rectitude, there are three ways to get the module:
 
 1. Download it from the [Vassal module catalog](https://vassalengine.org/wiki/Category:Modules).
-2. Download it from this repo's Releases.
+2. Download it from this repo's [Releases](https://github.com/rummelsworth/vassal-module-kassala/releases).
 3. Build it with this repo (see "Development" below).
 
-The game's rules can be accessed via the Help menu in the Vassal user interface (after the module is loaded). Enjoy!
+The game's rules can be accessed via the Help menu in the Vassal user interface after the module is opened.
 
-![Vassal map capture](./in-game_footage.png)
+Enjoy!
+
+![in-game footage](./in-game_footage.png)
 
 ## Design notes
 
 - The unit colors are based _roughly_ on the contemporaneous flag colors of the combatant forces, referenced [via Wikipedia][eaw].
-- The terrain colors are based _roughly_ on current satellite imagery of the area around Kassala, Sudan.
-- The color design is, overall, rough! Just a little spice to avoid bare black-and-white...
+- The terrain colors are based _roughly_ on current satellite imagery of the area around [Kassala, Sudan](https://en.wikipedia.org/wiki/Kassala).
+- The color design is, overall, minimal! Just a little spice to avoid bare black-and-white...
 
 ## Links of interest
 
