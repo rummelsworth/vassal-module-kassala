@@ -1,4 +1,4 @@
-# Kassala
+# _Kassala_
 
 This repo contains the assets of a game "module" for [Vassal Engine](https://vassalengine.org/). You'll need Vassal Engine to use the module (i.e. to play the game).
 
