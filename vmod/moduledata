@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <data version="1">
-  <version>0.1.0</version>
-  <VassalVersion>3.6.3</VassalVersion>
-  <dateSaved>1643764171593</dateSaved>
+  <version>0.2.0</version>
+  <VassalVersion>3.6.5</VassalVersion>
+  <dateSaved>1648474079657</dateSaved>
   <description>Scan-and-play of Chapter 4 from "The Complete Book of Wargames" (1980)</description>
   <name>Kassala</name>
 </data>

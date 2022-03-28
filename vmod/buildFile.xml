@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<VASSAL.build.GameModule ModuleOther1="VASSAL module development contributed by Brian Griska and William Rummler" ModuleOther2="" VassalVersion="3.6.3" description="Scan-and-play of Chapter 4 from &quot;The Complete Book of Wargames&quot; (1980)" name="Kassala" nextPieceSlotId="66" version="0.1.0">
+<VASSAL.build.GameModule ModuleOther1="VASSAL module development contributed by Brian Griska and William Rummler" ModuleOther2="" VassalVersion="3.6.5" description="Scan-and-play of Chapter 4 from &quot;The Complete Book of Wargames&quot; (1980)" name="Kassala" nextPieceSlotId="66" version="0.2.0">
     <VASSAL.build.module.BasicCommandEncoder/>
     <VASSAL.build.module.Documentation>
         <VASSAL.build.module.documentation.AboutScreen fileName="Splash.png" title="About Module"/>
@@ -9,7 +9,7 @@
         <entry>Moslem</entry>
         <entry>Christian</entry>
     </VASSAL.build.module.PlayerRoster>
-    <VASSAL.build.module.GlobalOptions autoReport="Always" chatterHTMLSupport="Never" hotKeysOnClosedWindows="Never" nonOwnerUnmaskable="Never" playerIdFormat="$PlayerName$" promptString="Opponents can unmask my pieces">
+    <VASSAL.build.module.GlobalOptions autoReport="Always" chatterHTMLSupport="Never" hotKeysOnClosedWindows="Never" inventoryForAll="Always" nonOwnerUnmaskable="Never" playerIdFormat="$PlayerName$" promptString="Opponents can unmask my pieces" sendToLocationMoveTrails="Never">
         <option name="stepIcon">/images/StepForward16.gif</option>
         <option name="stepHotKey">34,0</option>
         <option name="undoIcon">/images/Undo16.gif</option>
@@ -151,4 +151,5 @@
         <VASSAL.build.module.turn.CounterTurnLevel incr="1" loop="false" loopLimit="10" start="1" turnFormat="$value$"/>
     </VASSAL.build.module.turn.TurnTracker>
     <VASSAL.build.module.DiceButton addToTotal="0" canDisable="false" disabledIcon="" hotkey="" icon="/images/die.gif" keepCount="1" keepDice="false" keepOption="&gt;" lockAdd="false" lockDice="false" lockPlus="false" lockSides="false" nDice="1" nSides="6" name="1d6" plus="0" prompt="false" propertyGate="" reportFormat="** $name$ = $result$ *** &amp;lt;$PlayerName$&amp;gt;" reportTotal="false" sortDice="false" text="1d6" tooltip="1d6"/>
+    <VASSAL.build.module.PredefinedSetup description="The default setup of forces as given in the rules." file="Default Setup.vsav" isMenu="false" name="Default Setup" useFile="true"/>
 </VASSAL.build.GameModule>
