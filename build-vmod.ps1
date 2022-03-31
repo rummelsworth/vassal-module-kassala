@@ -31,8 +31,8 @@ while ($true)
 {
     if ([Console]::KeyAvailable)
     {
-        $keyInfo = [System.Console]::ReadKey($true)
-        if ($keyInfo.Modifiers -eq [System.ConsoleModifiers]::Control -and $keyInfo.Key -eq [System.ConsoleKey]::C)
+        $keyInfo = [Console]::ReadKey($true)
+        if ($keyInfo.Modifiers -eq [ConsoleModifiers]::Control -and $keyInfo.Key -eq [ConsoleKey]::C)
         {
             Exit
         }
