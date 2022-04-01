@@ -1,6 +1,6 @@
-param([Parameter(Mandatory=$true)] $vmodPath)
+param([string] $Path)
 
-if ([string]::IsNullOrWhiteSpace($vmodPath))
+if ([string]::IsNullOrWhiteSpace($Path))
 {
     Write-Error "Path to VMOD file is blank."
     Exit
@@ -8,5 +8,5 @@ if ([string]::IsNullOrWhiteSpace($vmodPath))
 
 Remove-Item .\vmod -Recurse
 New-Item .\vmod -ItemType Directory >$null
-[IO.Compression.ZipFile]::ExtractToDirectory($vmodPath, ".\vmod")
+[IO.Compression.ZipFile]::ExtractToDirectory($Path, ".\vmod")
 Write-Host "VMOD file unbuilt."
