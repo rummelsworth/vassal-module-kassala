@@ -25,6 +25,7 @@ $watcherJob = Register-ObjectEvent $watcher -EventName Changed -Action {
 
 $watcher.EnableRaisingEvents = $true
 
+$sessionControlC = [Console]::TreatControlCAsInput
 [Console]::TreatControlCAsInput = $true
 Write-Host "Press Ctrl+C to stop watching VMOD build output." -ForegroundColor ([ConsoleColor]::Yellow)
 
@@ -35,12 +36,13 @@ while ($true)
         $keyInfo = [Console]::ReadKey($true)
         if ($keyInfo.Modifiers -eq [ConsoleModifiers]::Control -and $keyInfo.Key -eq [ConsoleKey]::C)
         {
-            Remove-Job -Job $watcherJob -Force
+            [Console]::TreatControlCAsInput = $sessionControlC
+            $watcherJob | Remove-Job -Force
             Exit
         }
     }
     else
     {
-        Start-Sleep 0.5
+        Start-Sleep 0.2
     }
 }
