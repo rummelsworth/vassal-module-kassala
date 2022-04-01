@@ -8,5 +8,5 @@ if ([string]::IsNullOrWhiteSpace($vmodPath))
 
 Remove-Item .\vmod -Recurse
 New-Item .\vmod -ItemType Directory >$null
-[System.IO.Compression.ZipFile]::ExtractToDirectory($vmodPath, ".\vmod")
+[IO.Compression.ZipFile]::ExtractToDirectory($vmodPath, ".\vmod")
 Write-Host "VMOD file unbuilt."
