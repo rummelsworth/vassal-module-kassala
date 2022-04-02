@@ -18,31 +18,22 @@ $watcher = New-Object System.IO.FileSystemWatcher ".", $vmodName -Property @{
     NotifyFilter = [IO.NotifyFilters]::LastWrite
 }
 
-$watcherEventJob = Register-ObjectEvent $watcher -EventName Changed -Action {
+$watcherEventSourceId = [guid]::NewGuid()
+$watcherEventJob = Register-ObjectEvent $watcher -SourceIdentifier $watcherEventSourceId -EventName Changed -Action {
     Write-Host "VMOD file change detected."
     & ".\unbuild-vmod.ps1" $Event.SourceEventArgs.FullPath
 }
 
 $watcher.EnableRaisingEvents = $true
 
-$sessionControlCAsInput = [Console]::TreatControlCAsInput
-[Console]::TreatControlCAsInput = $true
 Write-Host "Press Ctrl+C to stop watching VMOD build output." -ForegroundColor ([ConsoleColor]::Yellow)
 
-while ($true)
+try
 {
-    if ([Console]::KeyAvailable)
-    {
-        $keyInfo = [Console]::ReadKey($true)
-        if ($keyInfo.Modifiers -eq [ConsoleModifiers]::Control -and $keyInfo.Key -eq [ConsoleKey]::C)
-        {
-            [Console]::TreatControlCAsInput = $sessionControlCAsInput
-            $watcherEventJob | Remove-Job -Force
-            Exit
-        }
-    }
-    else
-    {
-        Start-Sleep 0.2
-    }
+    Wait-Event -SourceIdentifier $watcherEventSourceId
+}
+finally
+{
+    $null = while ([Console]::KeyAvailable) { [Console]::ReadKey($true) }
+    $watcherEventJob | Remove-Job -Force
 }
