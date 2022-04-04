@@ -1,10 +1,13 @@
 # _Kassala_
 
-This repo contains the assets of a game "module" for [Vassal Engine](https://vassalengine.org/). You'll need Vassal Engine to use the module (i.e. to play the game).
+This repo contains the assets of a game "module" for [Vassal Engine](https://vassalengine.org/).
+You'll need Vassal Engine to use the module (i.e. to play the game).
 
 The game is from [_The Complete Book of Wargames_ (1980)](https://www.google.com/books/edition/The_Complete_Book_of_Wargames/5giXGAAACAAJ?hl=en), Chapter 4.
 
-It's a decent bit of fun and holds a special place in at least some folks' hearts, including my own. I was nine years old, and it was the very first wargame I ever learned and played to completion. I photocopied the thing, cut out the components, glued them onto some heavy cardstock from my older brother's comic book sleeve materials, similarly crafted a separate turn track, and had myself a pretty good time!
+It's a decent bit of fun and holds a special place in at least some folks' hearts, including my own.
+I was nine years old, and it was the very first wargame I ever learned and played to completion.
+I photocopied the thing, cut out the components, glued them onto some heavy cardstock from my older brother's comic book sleeve materials, similarly crafted a separate turn track, and had myself a pretty good time!
 
 In decreasing order of ease and/or rectitude, there are three ways to get the module:
 
@@ -36,6 +39,13 @@ Enjoy!
 
 First and foremost, if you want to hack on this module (or do any Vassal module authoring at all), learn you some [Vassal Wiki](https://vassalengine.org/wiki/Main_Page) for great good!
 
-This repo's "vmod" folder contains all the assets for this Vassal module. There are two helper scripts, one for building the module file from the "vmod" folder and one for "unbuilding" it, i.e. recreating the "vmod" folder from the module file. So, if you update the module file, you should "unbuild" it into the repo.
+This repo's "vmod" folder contains all the assets for this Vassal module.
+There are two helper scripts, one for building the module file from the "vmod" folder and one for "unbuilding" it, i.e. recreating the "vmod" folder from the module file.
+So, if you update the module file, you should "unbuild" it into the repo.
+In the build script's default mode, the built module file is "watched" and unbuilt automatically when changes occur.
+If this mode is disabled or fails for any reason, you can manually run the "unbuild" script on the module file.
+Also, it's best to **always run this repo's scripts from the repo's root folder**.
 
-PowerShell Core v7.2.1 or later is strongly recommended if you want to use the "build" script. (I think v7.0.0 or later might be okay, but I've only tested down to v7.2.1.) PowerShell and early versions of PowerShell Core can produce incorrect zip archives that cannot be read on/by some systems, including Vassal Engine.
+PowerShell Core v7.2.1 or later is strongly recommended if you want to use the "build" script.
+(I think v7.0.0 or later might be okay, but I've only tested down to v7.2.1.)
+PowerShell and early versions of PowerShell Core can produce incorrect zip archives that cannot be read on/by some systems, including Vassal Engine.
