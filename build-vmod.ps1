@@ -14,7 +14,7 @@ if ($NoWatch)
     Exit
 }
 
-$watcher = New-Object System.IO.FileSystemWatcher ".", $vmodName -Property @{
+$watcher = New-Object IO.FileSystemWatcher ".", $vmodName -Property @{
     NotifyFilter = [IO.NotifyFilters]::LastWrite
 }
 
