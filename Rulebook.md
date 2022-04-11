@@ -68,9 +68,11 @@ The terrain has been altered to conform to the strictures of map size.
 The mapboard has been divided into hexagonal spaces&mdash;hexes&mdash;to regulate movement and combat.
 Each hex represents approximately one hundred yards from side to side, and each turn in the game corresponds very roughly to thirty minutes of real time.
 <hr>
+<div style="text-align: center;">
 <img title="Fig. 4&ndash;1" alt="mapboard" src="./vmod/images/Kassala-map.png" width="50%">
 
 <b>Fig. 4&ndash;1</b>
+</div>
 <hr>
         <ol>
         <li>
