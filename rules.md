@@ -1,8 +1,4 @@
-% [*The Complete Book of Wargames* (1980)][tcbw], Chapter 4.
-
-[tcbw]: https://www.google.com/books/edition/The_Complete_Book_of_Wargames/5giXGAAACAAJ
-
-## *Kassala:* An Introductory Wargame
+% *Kassala:* An Introductory Wargame [@freeman1980complete]
 
 It's all very well to read about wargames, to have the common terms and procedures defined and explained, but there's no substitute for seeing and playing one. Hence, *Kassala*.
 
@@ -12,7 +8,7 @@ This game is a short, enjoyable, and challenging contest for two people. The "Mo
 
 Finally, *Kassala* is an introduction to contemporary wargames. Wargaming fanatics who disdain anything less elaborate than *War in the East* may not recognize *Kassala* as belonging to the same genre. It isn't, admittedly, a highly refined version of the German invasion of Russia in World War II or Napoleon's defeat at Waterloo. But you'll find all the basic wargaming elements discussed in the previous chapter: a mapboard divided into hexagonal spaces, cardboard playing pieces with printed combat and movement factors, different unit types, zones of control, terrain effects, a Combat Results Table for resolving battles, and so on. To be sure, *Kassala* has fewer pieces---and fewer kinds of pieces---than chess and takes less time to play---twenty minutes or so, with a bit of practice---and the rules have been written specifically to make them easy to understand, none of which is true of the games discussed in the rest of this book. And, once you have mastered the basic game, you can use some of the optional rules that have been provided to add further complexity to *Kassala*. After that, you'll be ready for *War at Sea*, *Stalingrad*, *Richthofen's War*, Metagaming's MicroGames, Series 120 games from Game Designers' Workshop, and Simulations Publications' folio and capsule games. Moving up to really complex games like *Squad Leader*, *Terrible Swift Sword*, or---if you must---even *Drang Nach Osten!* just takes practice and a little effort.
 
-### HISTORICAL BACKGROUND TO THE GAME
+## HISTORICAL BACKGROUND TO THE GAME
 
 In 1527 the first Protuguese embassy to the Coptic Christian kingdom of Ethiopia concluded its visit and sailed for home. Not long thereafter, Imam Ahmed ibn Ibrahim el Ghazi, called Ahmed Gran (the left-handed), led a mixed force of fanatic Moslem warriors on a religious jihad into Ethiopia. Due primarily to the presence within their ranks of two hundered Turkish infrantrymen armed with matchlocks, the invading Moslems had little trouble crushing native resistance. Ethiopian Emperor Lebna Dengel scarcely had time to send a plea for aid to Portugal before fleeing to the highlands in the northwestern portion of the kingdom.
 
@@ -26,13 +22,13 @@ At dawn, the Moslem banners were raised; their cannon spouted thunder and lightn
 
 For two years following the battle, the emperor recruited troops. Then, with a force of eight thousand infantry and five hundred cavalry, he attacked the Moslems at Waina Rega. After sixteen years in Ethiopia, Ahmed Gran fell to a Christian musket ball. Although Emperor Galawdewos died two years later in a minor engagement, he had turned the Moslem tide for good at Kassala.
 
-### *Kassala:* Rules of Play
+## *Kassala:* Rules of Play
 
 I.  [Components]{.smallcaps}
 
     A.  The mapboard (Fig. 4--1) depicts the area surrounding the town of Kassala, the scene of a crucial battle in 1541 between the Christian Ethiopians of Emperor Galawdewos and the invading Moslem army of Imam Ahmed Gran. The terrain has been altered to conform to the strictures of map size. The mapboard has been divided into hexagonal spaces---hexes---to regulate movement and combat. Each hex represents approximately one hundred yards from side to side, and each turn in the game corresponds very roughly to thirty minutes of real time.
 
-        ![Fig. 4--1](images/Kassala-map.png "Fig. 4&ndash;1")
+        ![**Fig. 4--1**](images/Kassala-map.png "Fig. 4&ndash;1")
 
         1.  There are two types of special hexes that affect play.
 
@@ -52,9 +48,9 @@ I.  [Components]{.smallcaps}
 
         1.  The Moslem player's units consist of:
 
-            (Fig. 4--2) Approximately 300 Marmaluke warriors armed primarily with lances and bows.
+            ![(Fig. 4--2) Approximately 300 Marmaluke warriors armed primarily with lances and bows.](images/Moslem_Cavalry_3-3_Mamluk.png "Fig. 4&ndash;2")
 
-            (Fig. 4--3) Approximately 200 Arab cavalry armed with assorted weapons.
+            ![(Fig. 4--3) Approximately 200 Arab cavalry armed with assorted weapons.](images/Moslem_Cavalry_3-3_Arab.png "Fig. 4&ndash;3")
 
         #.  The Christian player's units consist of:
 
