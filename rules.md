@@ -52,9 +52,33 @@ I.  [Components]{.smallcaps}
 
             ![(Fig. 4--3) Approximately 200 Arab cavalry armed with assorted weapons.](images/Moslem_Cavalry_3-3_Arab.png "Fig. 4&ndash;3")
 
+            ![(Fig. 4--4) Approximately 200 Turkish cavalry with chain-mail armor and assorted weapons.](images/Moslem_Cavalry_4-3_Turkish.png "Fig. 4&ndash;4")
+
+            ![(Fig. 4--5) Approximately 350 Nubian infantry armed with spears, swords, and bows.](images/Moslem_Infantry_3-2_Nubian.png "Fig. 4&ndash;5")
+
+            ![(Fig. 4--6) Approximately 200 Turkish infantry with firearms.](images/Moslem_Infantry_4-2_Turkish.png "Fig. 4&ndash;6")
+
+            ![(Fig. 4--7) Approximately 200 Egyptian/Sudanese infantry with firearms.](images/Moslem_Infantry_4-2_Egyptian-Sudanese.png "Fig. 4&ndash;7")
+
+            ![(Fig. 4--8) One cannon.](images/Moslem_Cannon_1-0.png "Fig. 4&ndash;8")
+
         #.  The Christian player's units consist of:
 
-        #.  ...
+            ![(Fig. 4--9) Approximately 200 Galla-Ethiopian warriors armed with muskets.](images/Christian_Infantry_4-2_Galla-Ethiopian.png "Fig. 4&ndash;9")
+
+            ![(Fig. 4--10) Approximately 400 Ethiopian warriors armed with spears, swords, and bows.](images/Christian_Infantry_4-2_Ethiopian.png "Fig. 4&ndash;10")
+
+            ![(Fig. 4--11) Approximately 200 Portuguese soldiers armed with muskets.](images/Christian_Infantry_4-2_Portuguese.png "Fig. 4&ndash;11")
+
+            ![(Fig. 4--12) Approximately 100 black Portuguese slaves armed with muskets.](images/Christian_Infantry_2-2_Portuguese.png "Fig. 4&ndash;12")
+
+            ![(Fig. 4--13) Approximately 150 native light cavalry armed with assorted weapons.](images/Christian_Cavalry_2-3_Native.png "Fig. 4&ndash;13")
+
+            ![(Fig. 4--14) One cannon.](images/Christian_Cannon_1-0.png "Fig. 4&ndash;14")
+
+        #.  Among both sets of pieces are three types of units. They are distinguished by these symbols in their upper left-hand corner:
+
+            ![**Fig. 4--15**](images/maybe-a-table-instead.png "Fig. 4&ndash;15")
 
         #.  ...
 
