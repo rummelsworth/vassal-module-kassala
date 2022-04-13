@@ -11,7 +11,7 @@ Write-Host "VMOD file built: $vmodPath"
 
 if ($NoWatch)
 {
-    Exit
+    exit
 }
 
 $watcher = New-Object IO.FileSystemWatcher ".", $vmodName -Property @{
