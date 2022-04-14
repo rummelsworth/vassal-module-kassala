@@ -1,23 +1,23 @@
-param([switch] $NoWatch)
+param([switch] $noWatch)
 
-$build = {
+$buildHelp = {
     pandoc .\rules.md -o .\help\rules.html -s --citeproc --bibliography .\The_Complete_Book_of_Wargames.bibtex
     Write-Host "Help build complete."
 }
 
-& $build
+& $buildHelp
 
-if ($NoWatch)
+if ($noWatch)
 {
     exit
 }
 
-$watcher = New-Object IO.FileSystemWatcher ".", "rules.md" -Property @{
+$watcher = New-Object IO.FileSystemWatcher "." , "rules.md" -Property @{
     NotifyFilter = [IO.NotifyFilters]::LastWrite
 }
 
 $watcherEventSourceId = [guid]::NewGuid()
-$watcherEventJob = Register-ObjectEvent $watcher -SourceIdentifier $watcherEventSourceId -EventName Changed -MessageData $build -Action {
+$watcherEventJob = Register-ObjectEvent $watcher -SourceIdentifier $watcherEventSourceId -EventName Changed -MessageData $buildHelp -Action {
     Write-Host "Help source file change detected."
     & $Event.MessageData
 }
