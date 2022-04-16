@@ -28,7 +28,7 @@ I.  [Components]{.smallcaps}
 
     A.  The mapboard (Fig. 4--1) depicts the area surrounding the town of Kassala, the scene of a crucial battle in 1541 between the Christian Ethiopians of Emperor Galawdewos and the invading Moslem army of Imam Ahmed Gran. The terrain has been altered to conform to the strictures of map size. The mapboard has been divided into hexagonal spaces---hexes---to regulate movement and combat. Each hex represents approximately one hundred yards from side to side, and each turn in the game corresponds very roughly to thirty minutes of real time.
 
-        ![**Fig. 4--1**](images/Kassala-map.png "Fig. 4&ndash;1")
+        ![**Fig. 4--1**](images/Kassala-map.png)
 
         1.  There are two types of special hexes that affect play.
 
@@ -48,49 +48,87 @@ I.  [Components]{.smallcaps}
 
         1.  The Moslem player's units consist of:
 
-            ![(Fig. 4--2) Approximately 300 Marmaluke warriors armed primarily with lances and bows.](images/Moslem_Cavalry_3-3_Mamluk.png "Fig. 4&ndash;2")
+            ![(Fig. 4--2) Approximately 300 Marmaluke warriors armed primarily with lances and bows.](images/Moslem_Cavalry_3-3_Mamluk.png)
 
-            ![(Fig. 4--3) Approximately 200 Arab cavalry armed with assorted weapons.](images/Moslem_Cavalry_3-3_Arab.png "Fig. 4&ndash;3")
+            ![(Fig. 4--3) Approximately 200 Arab cavalry armed with assorted weapons.](images/Moslem_Cavalry_3-3_Arab.png)
 
-            ![(Fig. 4--4) Approximately 200 Turkish cavalry with chain-mail armor and assorted weapons.](images/Moslem_Cavalry_4-3_Turkish.png "Fig. 4&ndash;4")
+            ![(Fig. 4--4) Approximately 200 Turkish cavalry with chain-mail armor and assorted weapons.](images/Moslem_Cavalry_4-3_Turkish.png)
 
-            ![(Fig. 4--5) Approximately 350 Nubian infantry armed with spears, swords, and bows.](images/Moslem_Infantry_3-2_Nubian.png "Fig. 4&ndash;5")
+            ![(Fig. 4--5) Approximately 350 Nubian infantry armed with spears, swords, and bows.](images/Moslem_Infantry_3-2_Nubian.png)
 
-            ![(Fig. 4--6) Approximately 200 Turkish infantry with firearms.](images/Moslem_Infantry_4-2_Turkish.png "Fig. 4&ndash;6")
+            ![(Fig. 4--6) Approximately 200 Turkish infantry with firearms.](images/Moslem_Infantry_4-2_Turkish.png)
 
-            ![(Fig. 4--7) Approximately 200 Egyptian/Sudanese infantry with firearms.](images/Moslem_Infantry_4-2_Egyptian-Sudanese.png "Fig. 4&ndash;7")
+            ![(Fig. 4--7) Approximately 200 Egyptian/Sudanese infantry with firearms.](images/Moslem_Infantry_4-2_Egyptian-Sudanese.png)
 
-            ![(Fig. 4--8) One cannon.](images/Moslem_Cannon_1-0.png "Fig. 4&ndash;8")
+            ![(Fig. 4--8) One cannon.](images/Moslem_Cannon_1-0.png)
 
         #.  The Christian player's units consist of:
 
-            ![(Fig. 4--9) Approximately 200 Galla-Ethiopian warriors armed with muskets.](images/Christian_Infantry_4-2_Galla-Ethiopian.png "Fig. 4&ndash;9")
+            ![(Fig. 4--9) Approximately 200 Galla-Ethiopian warriors armed with muskets.](images/Christian_Infantry_4-2_Galla-Ethiopian.png)
 
-            ![(Fig. 4--10) Approximately 400 Ethiopian warriors armed with spears, swords, and bows.](images/Christian_Infantry_4-2_Ethiopian.png "Fig. 4&ndash;10")
+            ![(Fig. 4--10) Approximately 400 Ethiopian warriors armed with spears, swords, and bows.](images/Christian_Infantry_4-2_Ethiopian.png)
 
-            ![(Fig. 4--11) Approximately 200 Portuguese soldiers armed with muskets.](images/Christian_Infantry_4-2_Portuguese.png "Fig. 4&ndash;11")
+            ![(Fig. 4--11) Approximately 200 Portuguese soldiers armed with muskets.](images/Christian_Infantry_4-2_Portuguese.png)
 
-            ![(Fig. 4--12) Approximately 100 black Portuguese slaves armed with muskets.](images/Christian_Infantry_2-2_Portuguese.png "Fig. 4&ndash;12")
+            ![(Fig. 4--12) Approximately 100 black Portuguese slaves armed with muskets.](images/Christian_Infantry_2-2_Portuguese.png)
 
-            ![(Fig. 4--13) Approximately 150 native light cavalry armed with assorted weapons.](images/Christian_Cavalry_2-3_Native.png "Fig. 4&ndash;13")
+            ![(Fig. 4--13) Approximately 150 native light cavalry armed with assorted weapons.](images/Christian_Cavalry_2-3_Native.png)
 
-            ![(Fig. 4--14) One cannon.](images/Christian_Cannon_1-0.png "Fig. 4&ndash;14")
+            ![(Fig. 4--14) One cannon.](images/Christian_Cannon_1-0.png)
 
         #.  Among both sets of pieces are three types of units. They are distinguished by these symbols in their upper left-hand corner:
 
-            ![**Fig. 4--15**](images/maybe-a-table-instead.png "Fig. 4&ndash;15")
+            -------------------------------- -------------
+            ![](images/Symbol_Infantry.png)  **Infantry**
 
-        #.  ...
+            ![](images/Symbol_Cavalry.png)   **Cavalry**
 
-        #.  ...
+            ![](images/Symbol_Cannon.png)    **Cannon**
+            ----------------------------------------------
 
-        #.  ...
+            : **Fig. 4--15**
 
-    #.  ...
+        #.  The abbreviation in the upper right-hand corner of each piece is used only for historical identification.
 
-    #.  ...
+            ![Fig. 4--16 *Anatomy of a playing unit or counter.*](images/Counter_Anatomy.png)
 
-    #.  ...
+        #.  The number in the lower left-hand corner of each piece indicates its *basic combat strength* or the combat factor---the relative strength of a unit when it is attacking or defending against other units. This is very important to the play of the game. In *Kassala*, these combat strengths range from a low of 1 (for cannon) to a high of 4.
+
+        #.  In the lower right-hand corner of each piece is its *movement factor* or the number of *movement points* it has. Since, generally, it takes one movement point to go from one hex to an adjoining hex, the movement factor is also the basic number of hexes a unit may move in one game turn (every turn). Terrain effects, however, may affect a unit's move, reducing it below this maximum. This, too, is very important. In *Kassala*, the movement factor is 0 for cannon (which can't move), 2 for infantry, and 3 for cavalry units.
+
+    #.  A die is required to play *Kassala* and must, therefore, be bought or borrowed from another game. Note that the die is used for the resolution of combat only and has no connection whasoever with the movement of units.
+
+    #.  The *Combat Results Table* (Fig. 4--17) is used to resolve combat whenever opposing units are next to each other.
+
+        ![]()
+
+    #.  The *Terrain Effects Key* (Fig. 4--18) summarizes the effects, on both the movement of units and combat, of the different hexes and hex-sides on the mapboard.
+
+        -----------------------------------------------------------------------------------
+                     Type of Hex         Effects on Movement      Effects on Combat
+        ------------ ------------------- ------------------------ -------------------------
+        img          Plain Terrain Hex   1 Movement Point to      No Effects.
+                                           enter.
+
+        img          Udaka Hex           1 Movement Point to      +1 point to total
+                                           enter; cavalry units      defensive combat
+                                           prohibited.               strength.
+
+        img          Kassala Hex         1 Movement Point to      +2 points to total
+                                           enter; cavalry units      defensive combat
+                                           prohibited.               strength.
+
+        img          Wadi Hex-side       +1 Movement Point to     -1 point from each
+                                            cross; cavalry units     unit attacking *up*
+                                            prohibited.              across.
+
+        img          Trench/Abatis Hex-  +1 Movement Point to     -1 point from each
+                       side                 cross.                   unit attacking across
+                                                                     from the barbed
+                                                                     side.
+        -----------------------------------------------------------------------------------
+
+        : **Fig. 4--18** *Terrain Effects Key*
 
 #.  [How to Play the Game]{.smallcaps}
 
