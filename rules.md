@@ -96,7 +96,7 @@ I.  [Components]{.smallcaps}
 
         #.  In the lower right-hand corner of each piece is its *movement factor* or the number of *movement points* it has. Since, generally, it takes one movement point to go from one hex to an adjoining hex, the movement factor is also the basic number of hexes a unit may move in one game turn (every turn). Terrain effects, however, may affect a unit's move, reducing it below this maximum. This, too, is very important. In *Kassala*, the movement factor is 0 for cannon (which can't move), 2 for infantry, and 3 for cavalry units.
 
-    #.  A die is required to play *Kassala* and must, therefore, be bought or borrowed from another game. Note that the die is used for the resolution of combat only and has no connection whasoever with the movement of units.
+    #.  A die is required to play *Kassala* and must, therefore, be bought or borrowed from another game. Note that the die is used for the resolution of combat only and has no connection whatsoever with the movement of units.
 
     #.  The *Combat Results Table* (Fig. 4--17) is used to resolve combat whenever opposing units are next to each other.
 
