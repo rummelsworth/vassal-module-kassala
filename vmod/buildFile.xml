@@ -21,7 +21,7 @@
     </VASSAL.build.module.GlobalOptions>
     <VASSAL.build.module.Map allowMultiple="false" backgroundcolor="255,255,255" buttonName="Map" changeFormat="$message$" color="0,0,0" createFormat="$pieceName$ created in $location$ *" description="" edgeHeight="0" edgeWidth="0" hideKey="" hotkey="" icon="/images/map.gif" launch="false" mapName="Main Map" markMoved="Never" markUnmovedHotkey="" markUnmovedIcon="/images/unmoved.gif" markUnmovedReport="" markUnmovedText="" markUnmovedTooltip="Mark all pieces on this map as not moved" moveKey="" moveToFormat="$pieceName$ moves $previousLocation$ &amp;rarr; $location$ *" moveWithinFormat="$pieceName$ moves $previousLocation$ &amp;rarr; $location$ *" showKey="" thickness="3">
         <VASSAL.build.module.map.BoardPicker addColumnText="Add column" addRowText="Add row" boardPrompt="Select board" slotHeight="125" slotScale="0.2" slotWidth="350" title="Choose Boards">
-            <VASSAL.build.module.map.boardPicker.Board image="Kassala-map.png" name="Kassala" reversible="false">
+            <VASSAL.build.module.map.boardPicker.Board image="Mapboard.png" name="Kassala" reversible="false">
                 <VASSAL.build.module.map.boardPicker.board.HexGrid color="255,255,0" cornersLegal="false" dotsVisible="false" dx="227.90000000000052" dy="265.8999999999995" edgesLegal="false" sideways="false" snapTo="true" visible="false" x0="51" y0="55"/>
             </VASSAL.build.module.map.boardPicker.Board>
         </VASSAL.build.module.map.BoardPicker>
