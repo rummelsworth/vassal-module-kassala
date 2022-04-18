@@ -1,5 +1,11 @@
 % *Kassala:* An Introductory Wargame [@freeman1980complete]
 
+- - -
+
+Footnotes in this document are not part of the original text.
+
+- - -
+
 It's all very well to read about wargames, to have the common terms and procedures defined and explained, but there's no substitute for seeing and playing one. Hence, *Kassala*.
 
 *Kassala* is a simulation---a re-creation of an actual, if obscure, sixteenth-century battle that took place between Moslem and Christian soldiers in northeastern Africa. The playing pieces represent the forces---infantry, cavalry, and artillery---believed to have been there. The wargame board is a modified map of the site of the battle.
@@ -28,7 +34,7 @@ I.  [Components]{.smallcaps}
 
     A.  The mapboard (Fig. 4--1) depicts the area surrounding the town of Kassala, the scene of a crucial battle in 1541 between the Christian Ethiopians of Emperor Galawdewos and the invading Moslem army of Imam Ahmed Gran. The terrain has been altered to conform to the strictures of map size. The mapboard has been divided into hexagonal spaces---hexes---to regulate movement and combat. Each hex represents approximately one hundred yards from side to side, and each turn in the game corresponds very roughly to thirty minutes of real time.
 
-        ![**Fig. 4--1**](images/Kassala-map.png)
+        ![**Fig. 4--1**](images/Mapboard.png)
 
         1.  There are two types of special hexes that affect play.
 
@@ -78,15 +84,17 @@ I.  [Components]{.smallcaps}
 
         #.  Among both sets of pieces are three types of units. They are distinguished by these symbols in their upper left-hand corner:
 
-            -------------------------------- -------------
-            ![](images/Symbol_Infantry.png)  **Infantry**
-
-            ![](images/Symbol_Cavalry.png)   **Cavalry**
-
-            ![](images/Symbol_Cannon.png)    **Cannon**
-            ----------------------------------------------
+            ------------------- -------------
+            ![Symbol_Infantry]  **Infantry**
+            ![Symbol_Cavalry]   **Cavalry**
+            ![Symbol_Cannon]    **Cannon**
+            ---------------------------------
 
             : **Fig. 4--15**
+
+            [Symbol_Infantry]: images/Symbol_Infantry.png
+            [Symbol_Cavalry]: images/Symbol_Cavalry.png
+            [Symbol_Cannon]: images/Symbol_Cannon.png
 
         #.  The abbreviation in the upper right-hand corner of each piece is used only for historical identification.
 
@@ -100,35 +108,81 @@ I.  [Components]{.smallcaps}
 
     #.  The *Combat Results Table* (Fig. 4--17) is used to resolve combat whenever opposing units are next to each other.
 
-        ![]()
+        **Fig. 4--17** *Combat Results Table*
+
+        - - -
+
+        **SIMPLIFIED COMBAT ODDS**
+
+        ------------------------------------------------------------------------------
+                 1--4                                                           5--1
+         DIE      or                                                             or
+         ROLL    less     1--3     1--2     1--1     2--1     3--1     4--1     more
+        ------ -------- -------- -------- -------- -------- -------- -------- --------
+          1       C        EX       EX       C        DE       DE       DE       DE
+
+          2       C        C        EX       EX       C        DE       DE       DE
+
+          3       AE       C        C        EX       EX       C        DE       DE
+
+          4       AE       AE       C        C        EX       EX       C        DE
+
+          5       AE       AE       AE       C        C        EX       EX       C
+
+          6       AE       AE       AE       AE       AE       C        EX       EX
+        ------------------------------------------------------------------------------
+
+        **EXPLANATION OF COMBAT RESULTS**
+
+        DE
+        : Defender Eliminated. All defending units are removed from the mapboard. Any one attacking unit may advance into each hex vacated by an eliminated defending unit. (Important: These and all other results apply *only* to those units involved in the particular combat being resolved.)
+
+        AE
+        : Attacker Eliminated. All units participating in this attack are removed from the mapboard.
+
+        EX
+        : Exchange. All units of the smaller force (attacking or defending) involved in this combat are removed from the board. The owner of the larger force must then remove a number of units whose combined combat strength is *at least* equal to the total combat strength of the smaller force. The larger force's player may choose which units he wishes to eliminate, but those eliminated must be among those---and *only* among those---that were involved in the combat. These strengths are calculated at the "face value" of the units and, for this purpose, are not modified by terrain additions or subtractions. Note that an "Exchange" may result in the elimination of *both* forces. Any surviving *attacking* units (only) may occupy any hexes vacated by eliminated *defending* units (this, of course, does not apply if all the attacking units are removed and some defending units remain).
+
+        C
+        : Contact. There is no effect to either the attacking or the defending units unless the defending hex[^contact] is occupied solely by cannon units. In this case, treat the "Contact" result as "Defender Eliminated" in regard to the cannon. In all other cases, all involved units remain in place and must renew the battle in the combat portion of the other player's turn. Additional units may join the units in Contact, but no unit in Contact may move away.
+
+        [^contact]: This rule may be unclear when, for example, one hex attacks two hexes, only one of which is occupied solely by cannon units. Is an attacking unit allowed to advance into the hex formerly occupied by the eliminated cannon unit? The author of this footnote thinks so.
+
+        - - -
 
     #.  The *Terrain Effects Key* (Fig. 4--18) summarizes the effects, on both the movement of units and combat, of the different hexes and hex-sides on the mapboard.
 
-        -----------------------------------------------------------------------------------
-                     Type of Hex         Effects on Movement      Effects on Combat
-        ------------ ------------------- ------------------------ -------------------------
-        img          Plain Terrain Hex   1 Movement Point to      No Effects.
-                                           enter.
+        ------------------------------------------------------------------------------------------------
+                                  Type of Hex         Effects on Movement      Effects on Combat
+        ------------------------- ------------------- ------------------------ -------------------------
+        ![Terrain_Plain]          Plain Terrain Hex   1 Movement Point to      No Effects.
+                                                        enter.
 
-        img          Udaka Hex           1 Movement Point to      +1 point to total
-                                           enter; cavalry units      defensive combat
-                                           prohibited.               strength.
+        ![Terrain_Udaka]          Udaka Hex           1 Movement Point to      +1 point to total
+                                                        enter; cavalry units      defensive combat
+                                                        prohibited.               strength.
 
-        img          Kassala Hex         1 Movement Point to      +2 points to total
-                                           enter; cavalry units      defensive combat
-                                           prohibited.               strength.
+        ![Terrain_Kassala]        Kassala Hex         1 Movement Point to      +2 points to total
+                                                        enter; cavalry units      defensive combat
+                                                        prohibited.               strength.
 
-        img          Wadi Hex-side       +1 Movement Point to     -1 point from each
-                                            cross; cavalry units     unit attacking *up*
-                                            prohibited.              across.
+        ![Terrain_Wadi]           Wadi Hex-side       +1 Movement Point to     -1 point from each
+                                                         cross; cavalry units     unit attacking *up*
+                                                         prohibited.              across.
 
-        img          Trench/Abatis Hex-  +1 Movement Point to     -1 point from each
-                       side                 cross.                   unit attacking across
-                                                                     from the barbed
-                                                                     side.
-        -----------------------------------------------------------------------------------
+        ![Terrain_Trench-Abatis]  Trench/Abatis Hex-  +1 Movement Point to     -1 point from each
+                                    side                 cross.                   unit attacking across
+                                                                                  from the barbed
+                                                                                  side.
+        ------------------------------------------------------------------------------------------------
 
         : **Fig. 4--18** *Terrain Effects Key*
+
+        [Terrain_Plain]: images/Terrain_Plain.png
+        [Terrain_Udaka]: images/Terrain_Udaka.png
+        [Terrain_Kassala]: images/Terrain_Kassala.png
+        [Terrain_Wadi]: images/Terrain_Wadi.png
+        [Terrain_Trench-Abatis]: images/Terrain_Trench-Abatis.png
 
 #.  [How to Play the Game]{.smallcaps}
 
