@@ -106,7 +106,7 @@ I.  [Components]{.smallcaps}
 
     #.  A die is required to play *Kassala* and must, therefore, be bought or borrowed from another game. Note that the die is used for the resolution of combat only and has no connection whatsoever with the movement of units.
 
-    #.  The *Combat Results Table* (Fig. 4--17) is used to resolve combat whenever opposing units are next to each other.
+    #.  []{id="combat-results-table"} The *Combat Results Table* (Fig. 4--17) is used to resolve combat whenever opposing units are next to each other.
 
         **Fig. 4--17** *Combat Results Table*
 
@@ -146,7 +146,7 @@ I.  [Components]{.smallcaps}
         C
         : Contact. There is no effect to either the attacking or the defending units unless the defending hex[^contact] is occupied solely by cannon units. In this case, treat the "Contact" result as "Defender Eliminated" in regard to the cannon. In all other cases, all involved units remain in place and must renew the battle in the combat portion of the other player's turn. Additional units may join the units in Contact, but no unit in Contact may move away.
 
-        [^contact]: This rule may be unclear when, for example, one hex attacks two hexes, only one of which is occupied solely by cannon units. Is an attacking unit allowed to advance into the hex formerly occupied by the eliminated cannon unit? The author of this footnote thinks so.
+        [^contact]: The wording of this rule may be unclear when, for example, one hex attacks two hexes, only one of which is occupied solely by cannon units. Is an attacking unit allowed to advance into the hex formerly occupied by the eliminated cannon unit, even though the other defending hex was unaffected by the result? [Rule II.E.13](#advance-after-combat) seems to indicate so.
 
         - - -
 
@@ -232,45 +232,69 @@ I.  [Components]{.smallcaps}
 
         #.  A unit must cease movement as soon as it moves adjacent to an enemy unit and *may not move again*---even in later turns---until all enemy units adjacent to it are destroyed in combat.
 
-        #.  Units beginning movement adjacent to an enemy unit may not move during that game turn. [The only exception](#advance-after-combat) is detailed in the rules for combat.
+        #.  Units beginning movement adjacent to an enemy unit may not move during that game turn. The only exception is detailed in the rules for [combat (E.13)](#advance-after-combat).
+
+        #.  Cavalry units may never be moved into or through any Kassala or Udaka hex at any point in the game.
+
+        #.  Cavalry units may never be moved across any wadi hex-side at any point in the game. They may, however, cross trench/abatis hex-sides in the same way that infantry units do---at the cost of an extra movement point.
+
+        #.  Cannon units may never be moved at any point in the game.
+
+        #.  Units may never be moved off the mapboard or onto any portion of the board that is not a hex (e.g., the river).
+
+        #.  Once a player has moved a unit and removed his hand from it, he cannot alter that unit's move without the consent of his opponent.
+
+        #.  Movement as a result of combat is a special case and is described in [combat (E.13)](#advance-after-combat).
 
     #.  [Combat]{id="combat"}
 
-        Combat is required whenever one or more Christian units are adjacent to one or more Moslem units.
+        Combat is required whenever one or more Christian units are adjacent to one or more Moslem units. The player whose turn it is (normally, the one who just moved) is the attacker; the other player is the defender (for this portion of the turn only; in *his* turn, he will become the attacker). Combat is resolved by comparing the total combat strength of the attacking units (in each particular battle) to the total combat strength of the units defending against that attack. This comparison is simplified---rounded off in favor of the defender---and expressed as a ratio whose smaller number is 1 (one). This ratio is then used to determine which column of the Combat Results Table (CRT) to use for the battle.
 
-        1.  TODO
+        *Example:* A unit with a combat strength of 4 attacks an enemy unit with a combat strength of 2. Simplifying the comparison of 4 to 2 yields a ratio (or odds) of 2 to 1. The attack is resolved on the 2--1 column of the Combat Results Table.
 
-        #.  TODO
+        *Example:* Units with a total combat strength of 5 attack an enemy unit with a combat strength of 3. Since all ratios are rounded off in favor of the defender, this attack is resolved on the 1--1 column of the Combat Results Table, although the actual ratio is closer to 2--1.
 
-        #.  TODO
+        After determining which column of the Combat Results Table to consult, the player attacking rolls a die and matches the number shown, with the correct column of the CRT. The result---AE, DE, EX, or C---is applied immediately to the battling units. (The results are explained in the CRT.)
 
-        #.  TODO
+        1.  A unit may only attack adjacent enemy units.
 
-        #.  TODO
+        #.  Each adjacent enemy unit may be attacked only once each turn, although in the other player's turn the attacked unit may---and in some cases *must*---make its own attack.
 
-        #.  TODO
+        #.  All enemy units adjacent to friendly units at the beginning of the combat portion of your turn *must* be attacked that turn. All friendly units that begin combat adjacent to an enemy unit *must* participate in an attack that turn.
 
-        #.  TODO
+        #.  Each unit may attack only once each turn (the converse of Combat Rule No. 2).
 
-        #.  TODO
+        #.  A unit may, however, attack more than one adjacent enemy unit at the same time (i.e., in the same attack).
 
-        #.  TODO
+        #.  A unit's combat strength is an integral whole and may never be split and applied to more than one combat in the same game turn. (This is analogous to Movement Rule No. 3.)
 
-        #.  TODO
+        #.  A player may choose which of his units will attack each enemy as long as the preceding rules are followed.
 
-        #.  TODO
+        #.  When defending (only), the *total* combat strength of *all* units in *each* Kassala hex is increased by 2 points (e.g., from 4 to 6). For Udaka, the defensive bonus is *one* point. (Note: If the optional cannon rules are used, this bonus applies to the total strength of a stack, not to each unit in a stack.)
 
-        #.  TODO
+        #.  Each unit attacking *up* across a wadi hex-side loses one point from its combat strength for that attack. (Important: Note that this is a "one-way" effect and does not apply to units attacking from an unmarked hex *down* across a wadi hex-side. See the [Terrain Effects Key](#terrain-effects-key).) This rule does not apply to cannon.
 
-        #.  []{id="advance-after-combat"} If, as a result of combat, ...
+        #.  Each unit attacking across a trench/abatis hex-side *from the barbed side* (only) loses 1 point from its combat strength for that attack. (Rules No. 9 and 10 apply if a unit is making a combined attack against two or more units, some of which lie across trench/abatis hex-sides.) This rule does not apply to cannon.
 
-        #.  TODO
+        #.  Cavalry units may participate in attacks on units in Kassala or Udaka hexes and across wadi hex-sides but may not enter such hexes or cross such hex-sides at any points in the game.
+
+        #.  The attacking player may resolve combats in any order desired, but the result of each combat must be applied immediately.
+
+        #.  []{id="advance-after-combat"} If, as a result of combat (i.e., DE or EX), a defending unit is eliminated, any (one) surviving attacker may immediately be moved into the hex vacated by the eliminated defender. This applies only to a unit which actually participated in the attack that eliminated the defender. Note that this move is over and above any normal movement allowed by a unit's movement factor. Note too, however, that cannon cannot move, and that cavalry still cannot enter Udaka or Kassala or cross wadi hex-sides.
+
+        #.  For further clarification, see the [Combat Results Table](#combat-results-table) and the [Examples of Play](#examples-of-play).
 
 #.  [Winning the Game]{.smallcaps}
 
     A.  ...
 
     #.  ...
+
+        1.  ...
+
+        #.  ...
+
+        #.  ...
 
 #.  [Optional Rules]{.smallcaps}
 
