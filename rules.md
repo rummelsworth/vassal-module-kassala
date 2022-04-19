@@ -48,7 +48,7 @@ I.  [Components]{.smallcaps}
 
             #.  Trench/Abatis Hex-sides
 
-        #.  The effects of these terrain features are fully explained in the rules for [Movement (II.D)](#movement) and [Combat (II.E)](#combat), and are summarized in the Terrain Effects Key.
+        #.  The effects of these terrain features are fully explained in the rules for [Movement](#movement) and [Combat](#combat), and are summarized in the [Terrain Effects Key](#terrain-effects-key).
 
     #.  The playing pieces or units are cardboard tiles, often called "counters," which represent the groups of soldiers involved in the conflict. There are two sets of pieces, one for each player. The pieces are listed with their historical equivalents. The number to the left of each unit indicates the total number of each piece. The composition of forces is included for information purposes only; it is not involved in the play of the game.
 
@@ -150,7 +150,7 @@ I.  [Components]{.smallcaps}
 
         - - -
 
-    #.  The *Terrain Effects Key* (Fig. 4--18) summarizes the effects, on both the movement of units and combat, of the different hexes and hex-sides on the mapboard.
+    #.  []{id="terrain-effects-key"} The *Terrain Effects Key* (Fig. 4--18) summarizes the effects, on both the movement of units and combat, of the different hexes and hex-sides on the mapboard.
 
         ------------------------------------------------------------------------------------------------
                                   Type of Hex         Effects on Movement      Effects on Combat
@@ -186,15 +186,85 @@ I.  [Components]{.smallcaps}
 
 #.  [How to Play the Game]{.smallcaps}
 
-    A.  ...
+    A.  Setting Up the Game
 
-    #.  ...
+        1.  Put the mapboard on the table or other flat, solid surface, and place each playing piece on the hex bearing that unit's symbol and historical designation. Note that the three Moslem cannon are stacked in the same hex.
 
-    #.  ...
+    #.  Sequence of Play
+
+        1.  The player controlling the Moslem units moves any or all of his units within the limits of their movement factors and the rules for movement.
+
+        #.  When he has moved all the units he wants to move that turn, the Moslem player then makes any attacks required by the rules for combat; that is, his units must attack any Christian units to which they are adjacent.
+
+        #.  When the Moslem player has completed all attacks for the turn, the Christian player moves any or all of his units within the limits of their movement factors and the rules for movement.
+
+        #.  The Christian player then makes any attacks required by the rules for combat.
+
+        #.  The players record the passage of one game turn.
+
+        #.  This sequence of play is repeated *exactly* for ten game turns; at the end of the tenth turn, the outcome is determined.
+
+    #.  Zones of Control
+
+        1.  In addition to occupying the hex on which it rests, a unit in *Kassala* also exerts an influence on every adjacent hex. This is the unit's *zone of control*.
+
+        #.  This influence affects the movement of enemy units and affects combat for all units. These effects are fully explained within the rules for Movement and Combat.
 
     #.  [Movement]{id="movement"}
 
+        1.  During any turn, a player can move as many or as few of his units as he wishes.
+
+        #.  A player doesn't have to move a unit as far as its movement factor would allow. For example, a cavalry unit with a movement factor of 3 might, on any particular turn, move 1, 2, or 3 hexes---or not at all.
+
+        #.  Unused movement points cannot be saved for a later turn or transferred to another unit; not moving one unit does not allow you to move the one next to it twice as far as normal.
+
+        #.  A unit can be moved every turn; its movement factor is the same throughout the game, no matter how much or how little the unit is moved.
+
+        #.  Basically, it takes one point of a unit's movement factor to move it from one hex to an adjacent one, but note the exception in the following rule.
+
+        #.  Crossing a wadi or trench/abatis hex-side costs an additional movement point. Thus, it takes *two* movement points to go from one hex to another across a wadi/trench/abatis hex-side. (See [Examples of Play](#examples-of-play).)
+
+        #.  No unit may enter a hex unless that unit has enough (unused) movement points to do so. For example, an infantry unit with 2 movement points cannot move one hex and then cross a wadi hex-side into a second hex; that would require 3 movement points, not 2. Instead, it must stop after one hex and, during the player's *next* turn, use its full movement factor to cross the wadi hex-side to the hex beyond.
+
+        #.  In the movement portion of any single game turn, no unit may be moved a number of hexes greater than its movement factor.
+
+        #.  Units may, at no extra cost in movement points, move *through* hexes that are occupied by friendly units, but no two units may occupy the same hex at the end of their movements. In other words, "stacking," which is allowed to some extent in other games, is not allowed. Note: The stack of three Moslem cannon units is the *only* exception to this rule. Units may never enter hexes occupied by enemy units.
+
+        #.  A unit must cease movement as soon as it moves adjacent to an enemy unit and *may not move again*---even in later turns---until all enemy units adjacent to it are destroyed in combat.
+
+        #.  Units beginning movement adjacent to an enemy unit may not move during that game turn. [The only exception](#advance-after-combat) is detailed in the rules for combat.
+
     #.  [Combat]{id="combat"}
+
+        Combat is required whenever one or more Christian units are adjacent to one or more Moslem units.
+
+        1.  TODO
+
+        #.  TODO
+
+        #.  TODO
+
+        #.  TODO
+
+        #.  TODO
+
+        #.  TODO
+
+        #.  TODO
+
+        #.  TODO
+
+        #.  TODO
+
+        #.  TODO
+
+        #.  TODO
+
+        #.  TODO
+
+        #.  []{id="advance-after-combat"} If, as a result of combat, ...
+
+        #.  TODO
 
 #.  [Winning the Game]{.smallcaps}
 
@@ -210,7 +280,7 @@ I.  [Components]{.smallcaps}
 
     #.  ...
 
-#.  [Examples of Play]{.smallcaps}
+#.  [Examples of Play]{.smallcaps id="examples-of-play"}
 
     A.  ...
 
