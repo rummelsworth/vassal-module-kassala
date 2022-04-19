@@ -286,19 +286,39 @@ I.  [Components]{.smallcaps}
 
 #.  [Winning the Game]{.smallcaps}
 
-    A.  ...
+    A.  The outcome is determined at the end of ten complete turns of play.
 
-    #.  ...
+    #.  There are three possible results of a game of *Kassala*:
 
-        1.  ...
+        1.  The Moslem player wins if there are *no* Christian units in any Kassala or Udaka hex at the end of the game.
 
-        #.  ...
+        #.  The Christian player wins if he has units *in both* Udaka and Kassala at the end of the game.
 
-        #.  ...
+        #.  The game is a draw if *either* Kassala or Udaka (but not both) is vacant of Christian units at the end of the game.
 
 #.  [Optional Rules]{.smallcaps}
 
-    A.  ...
+    If, after learning the basic version of *Kassala* described above, you wish to play a more challenging game, you may add any or all of the following optional rules. (All the basic rules still apply unless they are specifically contradicted.)
+
+    A.  Cannon
+
+        1.  Cannon units are special units and function differently from other units.
+
+        #.  Unlike other units, cannon may be stacked in a hex, either with other cannon or a different kind of unit or both. As many as three cannon and one other unit (cavalry or infantry) may occupy the same hex. (They would have to be all Moslem or all Christian units.)
+
+        #.  Each cannon in a hex contributes one strength point to the defense of that hex.
+
+        #.  Any "Contact" result against a hex defended solely by cannon is treated as though the result had been "Defender Eliminated" (DE).
+
+        #.  Cannon units may attack enemy units up to two hexes away.
+
+        #.  Cannon may only attack enemy units that are adjacent to friendly units.
+
+        #.  Cannon can perform three types of attack, but each unit may only participate in one attack during any game turn.
+
+            a.  *Combined Attacks* are simply those in which one or more cannon combine with one or more other units to attack one or more enemy units. ...
+
+            #.  ...
 
     #.  ...
 
