@@ -256,7 +256,7 @@ I.  [Components]{.smallcaps}
 
         After determining which column of the Combat Results Table to consult, the player attacking rolls a die and matches the number shown, with the correct column of the CRT. The result---AE, DE, EX, or C---is applied immediately to the battling units. (The results are explained in the CRT.)
 
-        1.  A unit may only attack adjacent enemy units.
+        1.  []{id="only-attack-adjacent"} A unit may only attack adjacent enemy units.
 
         #.  Each adjacent enemy unit may be attacked only once each turn, although in the other player's turn the attacked unit may---and in some cases *must*---make its own attack.
 
@@ -290,7 +290,7 @@ I.  [Components]{.smallcaps}
 
     #.  There are three possible results of a game of *Kassala*:
 
-        1.  The Moslem player wins if there are *no* Christian units in any Kassala or Udaka hex at the end of the game.
+        1.  The Moslem player wins if there are no Christian units in any Kassala or Udaka hex at the end of the game.
 
         #.  The Christian player wins if he has units *in both* Udaka and Kassala at the end of the game.
 
@@ -308,7 +308,7 @@ I.  [Components]{.smallcaps}
 
         #.  Each cannon in a hex contributes one strength point to the defense of that hex.
 
-        #.  Any "Contact" result against a hex defended solely by cannon is treated as though the result had been "Defender Eliminated" (DE).
+        #.  []{id="contact-cannon"} Any "Contact" result against a hex defended solely by cannon is treated as though the result had been "Defender Eliminated" (DE).
 
         #.  Cannon units may attack enemy units up to two hexes away.
 
@@ -316,20 +316,54 @@ I.  [Components]{.smallcaps}
 
         #.  Cannon can perform three types of attack, but each unit may only participate in one attack during any game turn.
 
-            a.  *Combined Attacks* are simply those in which one or more cannon combine with one or more other units to attack one or more enemy units. ...
+            a.  *Combined Attacks* are simply those in which one or more cannon combine with one or more other units to attack one or more enemy units. Any cannon participating in such combat must be within two hexes of at least one of the units being attacked. Each cannon may add its single point of combat strength to only one attack each turn. Cannon units never suffer any adverse effects from participating in combined attacks against *nonadjacent* enemy units (i.e., they cannot be eliminated as a result of AE or EX, and "Contact" results would not apply to them).
 
-            #.  ...
+            #.  *Bombardment* is a solitary attack by a cannon against an enemy unit adjacent to another friendly unit. Its purpose is to allow the friendly unit to concentrate against other adjacent enemy units. (The cannon is making a "diversionary attack" or, in effect, "soaking off.") Remember, however, that every friendly unit that begins the combat portion of a turn adjacent to an enemy unit must participate in an attack that turn. Bombardment attacks *never have any effect* on the enemy units being attacked. The die is not rolled, and the CRT is not consulted.
 
-    #.  ...
+            #.  Cannon may occasionally be forced to make an *Individual Attack* against an *adjacent* enemy unit or units. Results of these attacks are always treated as "Contact" results (but note that this is *not* the same as [Rule IV.A.4](#contact-cannon)), and the die is not rolled. (Note, however, that due to the rule just cited, the next enemy attack *will*, presumably, eliminate the cannon.)
 
-    #.  ...
+        #.  No terrain effects reduce, inhibit, interfere with, or eliminate the combat strength of a cannon or any attack made by one. But note that the normal defensive bonus of occupying a Kassala or Udaka hex applies to cannon or to any unit(s) being attacked by cannon.
+
+    #.  Free Deployment
+
+        This allows players to vary the game setup from the basic positions printed on the mapboard.
+
+        1.  The Christian player places his units in any hexes south of the dotted line on the mapboard.
+
+        #.  The Moslem player then sets up his units in any hexes north of the same dotted line.
+
+    #.  Mixed Attacks
+
+        Whenever one or more infantry units make a joint attack with one or more cavalry units against one or more enemy units, the attack is resolved on the Combat Results Table *one column higher* than would normally be the case. For example, if the Turkish 4&middot;3 cavalry and the Turkish 4&middot;2 infantry were attacking one of the Christian 4&middot;2 infantry units at 2--1, the attack would be resolved on the 3--1 (*not* the 2--1) column of the CRT. Note that this bonus applies only to *attacking* units and is not dependent on the composition of the defending units (which could be a mixture of infantry and cavalry units, also, without altering the attacking force's bonus).
 
 #.  [Examples of Play]{.smallcaps id="examples-of-play"}
 
-    A.  ...
+    A.  Movement (Fig. 4--19)
 
-    #.  ...
+        The Nubian infantry may move to either hex (a) or (b) at a cost of two movement points (one for the hex entered and one for the type of hex-side crossed). The unit may, alternatively, move to hex (c) via hex (d) at a cost of one movement point for each hex entered.
 
-    #.  ...
+        ![**Fig. 4--19**](images/Example_of_Play_A.png)
 
-    #.  ...
+    #.  Single Attack (Fig. 4--20)
+
+        The Turkish infantry attacks the enemy unit in hex (b). The Turkish unit (a) loses one strenght point for attacking up across a wadi hex-side. The Portuguese unit gains one strength point for defending in the Udaka hex. The adjusted attack is thus 3--3 and is resolved at 1--1.
+
+        ![**Fig. 4--20**](images/Example_of_Play_B.png)
+
+    #.  Multiple Attack (Fig. 4--21)
+
+        The Egyptian infantry (a), the Turkish infantry (b), the Turkish cavalry (c), and the Arab cavalry (d) attack the Ethiopian infantry (f) and the cavalry reserve (e). The attack must be executed in one of the following ways:
+
+        ![**Fig. 4--21**](images/Example_of_Play_C.png)
+
+        1.  The Turkish and Arab cavalry (c) and (d) may attack the reserve cavalry (e) at 3--1 (7--2) odds, while the remaining Moslem units (a) and (b) attack the Ethiopians (f) at 2--1 (8--4) odds.
+
+        #.  Alternately, the Arab cavalry (d) may attack alone against the reserve cavalry (e) at 1--1 (3--2) odds, while the remaining Moslem units (a), (b), and (c) attack the Ethiopians (f) at 3--1 (12--4) odds (if the optional rules were being used, this second attack---but not the combat between the cavalry units---would be a *mixed attack*).
+
+        #.  Note that the four Moslem units could not make one large joint (and mixed) attack against the two Christian units, since the Arab cavalry (d) is not adjacent to the Ethiopian infantry (f), and the two Moslem infantry units (a) and (b) are not adjacent to the Christian reserve cavalry (e). ([Combat Rule No. 1](#only-attack-adjacent).)
+
+    #.  Bombardment (Fig. 4--22)
+
+        If the Moslem cannon (d) bombards the Portuguese infantry (b), the Turkish infantry (c) is free to attack the cavalry reserve (a) at 2--1 (4--2) odds. If the cannon does not bombard the Portuguese infantry, the Turkish infantry will be forced to attack both of the Christian units at 1--2 (4--6) odds.
+
+        ![**Fig. 4--22**](images/Example_of_Play_D.png)
