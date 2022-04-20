@@ -3,7 +3,6 @@
     <VASSAL.build.module.BasicCommandEncoder/>
     <VASSAL.build.module.Documentation>
         <VASSAL.build.module.documentation.AboutScreen fileName="Splash.png" title="About Module"/>
-        <VASSAL.build.module.documentation.BrowserPDFFile pdfFile="The Complete Book of Wargames - Chapter 4.pdf" title="Show TCBW Ch. 4 (PDF scan)"/>
     </VASSAL.build.module.Documentation>
     <VASSAL.build.module.PlayerRoster buttonIcon="" buttonKeyStroke="" buttonText="Retire" buttonToolTip="Switch sides, become an observer, or allow another player to take your side in this game">
         <entry>Moslem</entry>
