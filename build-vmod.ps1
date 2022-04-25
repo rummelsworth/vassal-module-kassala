@@ -1,4 +1,4 @@
-param([switch] $noWatch)
+param([switch] $watch)
 
 $tag = git tag --points-at HEAD
 $sha = git rev-parse --short HEAD
@@ -8,9 +8,7 @@ Remove-Item -ErrorAction Ignore "$vmodPath"
 [IO.Compression.ZipFile]::CreateFromDirectory(".\vmod", $vmodPath)
 Write-Host "VMOD file built: $vmodPath"
 
-if ($noWatch)
+if ($watch)
 {
-    exit
+    & ".\watch-vmod.ps1" $vmodPath
 }
-
-& ".\watch-vmod.ps1" $vmodPath
