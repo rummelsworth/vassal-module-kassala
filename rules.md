@@ -146,7 +146,7 @@ I.  [Components]{.smallcaps}
         C
         : Contact. There is no effect to either the attacking or the defending units unless the defending hex[^contact] is occupied solely by cannon units. In this case, treat the "Contact" result as "Defender Eliminated" in regard to the cannon. In all other cases, all involved units remain in place and must renew the battle in the combat portion of the other player's turn. Additional units may join the units in Contact, but no unit in Contact may move away.
 
-        [^contact]: The wording of this rule may be unclear when, for example, one hex attacks two hexes, only one of which is occupied solely by cannon units. Is an attacking unit allowed to advance into the hex formerly occupied by the eliminated cannon unit, even though the other defending hex was unaffected by the result? [Rule II.E.13](#advance-after-combat) seems to indicate so.
+        [^contact]: The wording of this rule may be unclear when, for example, one hex attacks two hexes, only one of which is occupied solely by cannon units. Is an attacking unit allowed to advance into the hex formerly occupied by the eliminated cannon unit, even though the other defending hex was unaffected by the result? [Rule II.E.13](#advance-after-combat) seems to indicate so more clearly than this rule.
 
         - - -
 
