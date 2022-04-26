@@ -34,7 +34,7 @@ I.  [Components]{.smallcaps}
 
     A.  The mapboard (Fig. 4--1) depicts the area surrounding the town of Kassala, the scene of a crucial battle in 1541 between the Christian Ethiopians of Emperor Galawdewos and the invading Moslem army of Imam Ahmed Gran. The terrain has been altered to conform to the strictures of map size. The mapboard has been divided into hexagonal spaces---hexes---to regulate movement and combat. Each hex represents approximately one hundred yards from side to side, and each turn in the game corresponds very roughly to thirty minutes of real time.
 
-        ![**Fig. 4--1**](images/Mapboard.png)
+        ![**Fig. 4--1**](Mapboard.png)
 
         1.  There are two types of special hexes that affect play.
 
@@ -54,33 +54,33 @@ I.  [Components]{.smallcaps}
 
         1.  The Moslem player's units consist of:
 
-            ![(Fig. 4--2) Approximately 300 Marmaluke warriors armed primarily with lances and bows.](images/Moslem_Cavalry_3-3_Mamluk.png)
+            ![(Fig. 4--2) Approximately 300 Marmaluke warriors armed primarily with lances and bows.](Moslem_Cavalry_3-3_Mamluk.png)
 
-            ![(Fig. 4--3) Approximately 200 Arab cavalry armed with assorted weapons.](images/Moslem_Cavalry_3-3_Arab.png)
+            ![(Fig. 4--3) Approximately 200 Arab cavalry armed with assorted weapons.](Moslem_Cavalry_3-3_Arab.png)
 
-            ![(Fig. 4--4) Approximately 200 Turkish cavalry with chain-mail armor and assorted weapons.](images/Moslem_Cavalry_4-3_Turkish.png)
+            ![(Fig. 4--4) Approximately 200 Turkish cavalry with chain-mail armor and assorted weapons.](Moslem_Cavalry_4-3_Turkish.png)
 
-            ![(Fig. 4--5) Approximately 350 Nubian infantry armed with spears, swords, and bows.](images/Moslem_Infantry_3-2_Nubian.png)
+            ![(Fig. 4--5) Approximately 350 Nubian infantry armed with spears, swords, and bows.](Moslem_Infantry_3-2_Nubian.png)
 
-            ![(Fig. 4--6) Approximately 200 Turkish infantry with firearms.](images/Moslem_Infantry_4-2_Turkish.png)
+            ![(Fig. 4--6) Approximately 200 Turkish infantry with firearms.](Moslem_Infantry_4-2_Turkish.png)
 
-            ![(Fig. 4--7) Approximately 200 Egyptian/Sudanese infantry with firearms.](images/Moslem_Infantry_4-2_Egyptian-Sudanese.png)
+            ![(Fig. 4--7) Approximately 200 Egyptian/Sudanese infantry with firearms.](Moslem_Infantry_4-2_Egyptian-Sudanese.png)
 
-            ![(Fig. 4--8) One cannon.](images/Moslem_Cannon_1-0.png)
+            ![(Fig. 4--8) One cannon.](Moslem_Cannon_1-0.png)
 
         #.  The Christian player's units consist of:
 
-            ![(Fig. 4--9) Approximately 200 Galla-Ethiopian warriors armed with muskets.](images/Christian_Infantry_4-2_Galla-Ethiopian.png)
+            ![(Fig. 4--9) Approximately 200 Galla-Ethiopian warriors armed with muskets.](Christian_Infantry_4-2_Galla-Ethiopian.png)
 
-            ![(Fig. 4--10) Approximately 400 Ethiopian warriors armed with spears, swords, and bows.](images/Christian_Infantry_4-2_Ethiopian.png)
+            ![(Fig. 4--10) Approximately 400 Ethiopian warriors armed with spears, swords, and bows.](Christian_Infantry_4-2_Ethiopian.png)
 
-            ![(Fig. 4--11) Approximately 200 Portuguese soldiers armed with muskets.](images/Christian_Infantry_4-2_Portuguese.png)
+            ![(Fig. 4--11) Approximately 200 Portuguese soldiers armed with muskets.](Christian_Infantry_4-2_Portuguese.png)
 
-            ![(Fig. 4--12) Approximately 100 black Portuguese slaves armed with muskets.](images/Christian_Infantry_2-2_Portuguese.png)
+            ![(Fig. 4--12) Approximately 100 black Portuguese slaves armed with muskets.](Christian_Infantry_2-2_Portuguese.png)
 
-            ![(Fig. 4--13) Approximately 150 native light cavalry armed with assorted weapons.](images/Christian_Cavalry_2-3_Native.png)
+            ![(Fig. 4--13) Approximately 150 native light cavalry armed with assorted weapons.](Christian_Cavalry_2-3_Native.png)
 
-            ![(Fig. 4--14) One cannon.](images/Christian_Cannon_1-0.png)
+            ![(Fig. 4--14) One cannon.](Christian_Cannon_1-0.png)
 
         #.  Among both sets of pieces are three types of units. They are distinguished by these symbols in their upper left-hand corner:
 
@@ -92,13 +92,13 @@ I.  [Components]{.smallcaps}
 
             : **Fig. 4--15**
 
-            [Symbol_Infantry]: images/Symbol_Infantry.png
-            [Symbol_Cavalry]: images/Symbol_Cavalry.png
-            [Symbol_Cannon]: images/Symbol_Cannon.png
+            [Symbol_Infantry]: Symbol_Infantry.png
+            [Symbol_Cavalry]: Symbol_Cavalry.png
+            [Symbol_Cannon]: Symbol_Cannon.png
 
         #.  The abbreviation in the upper right-hand corner of each piece is used only for historical identification.
 
-            ![Fig. 4--16 *Anatomy of a playing unit or counter.*](images/Counter_Anatomy.png)
+            ![Fig. 4--16 *Anatomy of a playing unit or counter.*](Counter_Anatomy.png)
 
         #.  The number in the lower left-hand corner of each piece indicates its *basic combat strength* or the combat factor---the relative strength of a unit when it is attacking or defending against other units. This is very important to the play of the game. In *Kassala*, these combat strengths range from a low of 1 (for cannon) to a high of 4.
 
@@ -178,11 +178,11 @@ I.  [Components]{.smallcaps}
 
         : **Fig. 4--18** *Terrain Effects Key*
 
-        [Terrain_Plain]: images/Terrain_Plain.png
-        [Terrain_Udaka]: images/Terrain_Udaka.png
-        [Terrain_Kassala]: images/Terrain_Kassala.png
-        [Terrain_Wadi]: images/Terrain_Wadi.png
-        [Terrain_Trench-Abatis]: images/Terrain_Trench-Abatis.png
+        [Terrain_Plain]: Terrain_Plain.png
+        [Terrain_Udaka]: Terrain_Udaka.png
+        [Terrain_Kassala]: Terrain_Kassala.png
+        [Terrain_Wadi]: Terrain_Wadi.png
+        [Terrain_Trench-Abatis]: Terrain_Trench-Abatis.png
 
 #.  [How to Play the Game]{.smallcaps}
 
@@ -342,19 +342,19 @@ I.  [Components]{.smallcaps}
 
         The Nubian infantry may move to either hex (a) or (b) at a cost of two movement points (one for the hex entered and one for the type of hex-side crossed). The unit may, alternatively, move to hex (c) via hex (d) at a cost of one movement point for each hex entered.
 
-        ![**Fig. 4--19**](images/Example_of_Play_A.png)
+        ![**Fig. 4--19**](Example_of_Play_A.png)
 
     #.  Single Attack (Fig. 4--20)
 
         The Turkish infantry attacks the enemy unit in hex (b). The Turkish unit (a) loses one strenght point for attacking up across a wadi hex-side. The Portuguese unit gains one strength point for defending in the Udaka hex. The adjusted attack is thus 3--3 and is resolved at 1--1.
 
-        ![**Fig. 4--20**](images/Example_of_Play_B.png)
+        ![**Fig. 4--20**](Example_of_Play_B.png)
 
     #.  Multiple Attack (Fig. 4--21)
 
         The Egyptian infantry (a), the Turkish infantry (b), the Turkish cavalry (c), and the Arab cavalry (d) attack the Ethiopian infantry (f) and the cavalry reserve (e). The attack must be executed in one of the following ways:
 
-        ![**Fig. 4--21**](images/Example_of_Play_C.png)
+        ![**Fig. 4--21**](Example_of_Play_C.png)
 
         1.  The Turkish and Arab cavalry (c) and (d) may attack the reserve cavalry (e) at 3--1 (7--2) odds, while the remaining Moslem units (a) and (b) attack the Ethiopians (f) at 2--1 (8--4) odds.
 
@@ -366,4 +366,4 @@ I.  [Components]{.smallcaps}
 
         If the Moslem cannon (d) bombards the Portuguese infantry (b), the Turkish infantry (c) is free to attack the cavalry reserve (a) at 2--1 (4--2) odds. If the cannon does not bombard the Portuguese infantry, the Turkish infantry will be forced to attack both of the Christian units at 1--2 (4--6) odds.
 
-        ![**Fig. 4--22**](images/Example_of_Play_D.png)
+        ![**Fig. 4--22**](Example_of_Play_D.png)

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<VASSAL.build.GameModule ModuleOther1="VASSAL module development contributed by Brian Griska and William Rummler" ModuleOther2="" VassalVersion="3.6.5" description="Scan-and-play of Chapter 4 from &quot;The Complete Book of Wargames&quot; (1980)" name="Kassala" nextPieceSlotId="66" version="0.2.0">
+<VASSAL.build.GameModule ModuleOther1="VASSAL module development contributed by Brian Griska and William Rummler" ModuleOther2="" VassalVersion="3.6.6" description="Scan-and-play of Chapter 4 from &quot;The Complete Book of Wargames&quot; (1980)" name="Kassala" nextPieceSlotId="66" version="0.2.0">
     <VASSAL.build.module.BasicCommandEncoder/>
     <VASSAL.build.module.Documentation>
         <VASSAL.build.module.documentation.AboutScreen fileName="Splash.png" title="About Module"/>
+        <VASSAL.build.module.documentation.BrowserHelpFile startingPage="rules.html" title="Rules"/>
     </VASSAL.build.module.Documentation>
     <VASSAL.build.module.PlayerRoster buttonIcon="" buttonKeyStroke="" buttonText="Retire" buttonToolTip="Switch sides, become an observer, or allow another player to take your side in this game">
         <entry>Moslem</entry>
