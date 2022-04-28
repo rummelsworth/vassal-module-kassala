@@ -40,12 +40,19 @@ Enjoy!
 First and foremost, if you want to hack on this module (or do any Vassal module authoring at all), learn you some [Vassal Wiki](https://vassalengine.org/wiki/Main_Page) for great good!
 
 This repo's "vmod" folder contains all the assets for this Vassal module.
-There are two helper scripts, one for building the module file from the "vmod" folder and one for "unbuilding" it, i.e. recreating the "vmod" folder from the module file.
-So, if you update the module file, you should "unbuild" it into the repo.
-In the build script's default mode, the built module file is "watched" and unbuilt automatically when changes occur.
-If this mode is disabled or fails for any reason, you can manually run the "unbuild" script on the module file.
-Also, it's best to **always run this repo's scripts from the repo's root folder**.
+There are helper scripts for the following build-related functions:
+- Building the module file from the "vmod" folder.
+  - This includes an optional "watch mode", see below.
+- "Unbuilding" a module file into the "vmod" folder.
+- Watching a module file for changes (and unbuilding on each change).
+- Building the help HTML file.
+  - This includes an optional "watch mode" that will rebuild the HTML on every change to the "source" MD file.
 
-PowerShell Core v7.2.1 or later is strongly recommended if you want to use the "build" script.
-(I think v7.0.0 or later might be okay, but I've only tested down to v7.2.1.)
+Tips:
+- **Always run this repo's scripts from the repo's root folder.**
+- Currently, any changes inside the "help" folder should be manually integrated into the module file using the Vassal module editor. When doing so, you will want to remove the old help item and then add a new help item using the "help" folder and the built HTML file to fill in the item's properties.
+- When you finish editing the module file with the Vassal module editor, you should unbuild the module file into the repo so that all changes to the module can be detected and preserved in version control.
+
+PowerShell Core v7.2.1 or later is strongly recommended.
 PowerShell and early versions of PowerShell Core can produce incorrect zip archives that cannot be read on/by some systems, including Vassal Engine.
+(I think PowerShell Core v7.0.0 or later are okay, but I've only tested down to v7.2.1.)
